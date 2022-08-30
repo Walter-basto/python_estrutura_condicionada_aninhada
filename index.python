@@ -1,0 +1,7 @@
+nome=str(input("qual é o seu nome ?"))
+if nome=="Walter":
+   print("seu nome é diferente!")
+elif nome in "Diego":
+   print("seu nome é popular!")
+else:
+    print("seu nome é normal!")
